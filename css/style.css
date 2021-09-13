@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-color: snow!important;
+}
+.form-group{
+  display: flex;
+  width: 40%;
+  margin: 40px auto;
 }
 .search-field {
   border: none;
@@ -38,6 +44,10 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  background: rosybrown;
+}
+.product{
+  padding: 5px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -56,6 +66,7 @@ body {
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  background: wheat;
 }
 .cart-main {
   padding-right: 30px;
